@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { PollsService } from './polls.service';
 import { PollsController } from './polls.controller';
-import { redisModule } from '../modules.config';
+import { redisModule } from '../../modules.config';
 
 
 @Module({
